@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./rscs/css/index.css">
+      <link rel="stylesheet" href="./rscs/css/bootstrap-3.4 .1-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./rscs/css/pruebas/cables.css">
+      <script src="./rscs/css/jquery.min.js"></script>
+      <script src="./rscs/css/bootstrap-3.4 .1-dist/js/bootstrap.min.js"></script>
+      <title>FLASHBANG</title>
+</head>
+
+
+<body id="body" class="body">
+      <div id="gameover" class="gameover2"></div>
+      <div id="completado" class="completado2"></div>
+
+      <audio id="AUDIO-1MIN">
+            <source src="rscs/css/audios/1_min.mp3" type="audio/mp3">
+      </audio>
+      <audio id="AUDIO-3MIN">
+            <source src="rscs/css/audios/3_min.mp3" type="audio/mp3">
+      </audio>
+      <audio id="AUDIO-STARTBOMB">
+            <source src="rscs/css/audios/Audio_inicial.mp3" type="audio/mp3">
+      </audio>
+      <audio id="AUDIO-FLASHBANG">
+            <source src="rscs/css/audios/Audio_Flash.mp3" type="audio/mp3">
+      </audio>
+      <audio id="AUDIO-ROJO">
+            <source src="rscs/css/audios/cable_rojo.mp3" type="audio/mp3">
+      </audio>
+      <audio id="AUDIO-AZUL">
+            <source src="rscs/css/audios/cable_azul.mp3" type="audio/mp3">
+      </audio>
+      <audio id="AUDIO-VERDE">
+            <source src="rscs/css/audios/cable_verde.mp3" type="audio/mp3">
+      </audio>
+      <audio id="AUDIO-ARRIBA">
+            <source src="rscs/css/audios/ARRIBA.mp3" type="audio/mp3">
+      </audio>
+      <audio id="AUDIO-MEDIO">
+            <source src="rscs/css/audios/MEDIO.mp3" type="audio/mp3">
+      </audio>
+      <audio id="AUDIO-ABAJO">
+            <source src="rscs/css/audios/ABAJO.mp3" type="audio/mp3">
+      </audio>
+      <audio id="PRUEBA-SUPERADA">
+            <source src="rscs/css/audios/PRUEBA_SUPERADA.mp3" type="audio/mp3">
+      </audio>
+      <audio id="BOMBA-DESACTIVADA">
+            <source src="rscs/css/audios/BOMBA_DESACTIVADA.mp3" type="audio/mp3">
+      </audio>
+      <audio id="CORTAR">
+            <source src="rscs/css/audios/Cortar.mp3" type="audio/mp3">
+      </audio>
+
+
+
+      <!-- ////////////////////////////////////////////////////////////// -->
+      <div id="CREOQUETODO">
+      <!-- <div id="contador" class="contador">¡Quedan <span id="time"></span> minutos!</div> -->
+      <div id="contador" class="contador"><span id="time"></span></div>
+
+      <div class="container" id="bomba">
+            <!--margin-left: 15.33%;-->
+            <div class="row" style="display: flex; margin-left: 15.33% ">
+                  <div class="col-md prueba" id="p1"></div>
+                  <div class="col-md prueba" id="p2"></div>
+                  <div class="col-md prueba" id="p3"></div>
+            </div>
+      </div>
+</div>
+
+
+</body>
+<script src="js/countdown.js"></script>
+<script src="./js/clsCables.js"></script>
+
+<script src="./js/com/clsComprobar.js"></script>
+<script src="./js/com/clsGame.js"></script>
+
+</html>
